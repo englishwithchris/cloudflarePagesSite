@@ -1,0 +1,114 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #EBEBEB;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #EBEBEB;
+    ;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.text-with-image-1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: url(./images/sunset.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.text-with-image-2 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: url(./images/blues.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.text-with-image-3 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: url(./images/storm.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: teal;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    transition: background-color 0.1s ease-in;
+}
+
+.cta-button:hover {
+    background-color: #FF44CC;
+}
+
+.nav-link {
+    transition: transform 0.1s ease;
+    /* Smooth appearance effect */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transform: scaleX(1.05);
+}
+
+.decorated-header {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.decorated-header::before,
+.decorated-header::after {
+    content: '';
+    height: 2px;
+    flex: 0.5;
+    background: linear-gradient(to var(--direction, right),
+            transparent,
+            #000 40%,
+            #000 100%);
+}
+
+.decorated-header::before {
+    --direction: right;
+}
+
+.decorated-header::after {
+    --direction: left;
+}
+
+.accordion-button {
+    background-color: teal;
+}
