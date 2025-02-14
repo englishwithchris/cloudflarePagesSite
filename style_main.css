@@ -10,27 +10,15 @@ a {
 
 header {
     background-color: #EBEBEB;
-    ;
     padding: 1rem 0;
     text-align: center;
 }
-
-/* .text-with-image-1 {
-    font-size: 3rem;
-    font-weight: bold;
-    background: url(./images/sunset.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-
-} */
 
 .text-with-image-1 {
     font-size: 3rem;
     font-weight: bold;
     background: url(./images/sunsetBlur.png) center;
-    background-size:inherit;
+    background-size: inherit;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -41,7 +29,7 @@ header {
     font-size: 3rem;
     font-weight: bold;
     background: url(./images/storm.jpg) no-repeat center;
-    
+
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
@@ -60,24 +48,26 @@ header {
 
 }
 
-.textEnterLeft{
+.textEnterLeft {
     position: relative;
     opacity: 0;
     transform: translateX(-5%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
 }
-.animateEnterLeft{
+
+.animateEnterLeft {
     transform: translateX(0) translateY(0);
     opacity: 1;
 }
 
-.textEnterRight{
+.textEnterRight {
     position: relative;
     opacity: 0;
     transform: translateX(5%);
     transition: transform 0.3s ease-in, opacity 0.3s ease-in;
 }
-.animateEnterRight{
+
+.animateEnterRight {
     transform: translateX(0) translateY(0);
     opacity: 1;
 }
@@ -91,7 +81,7 @@ header {
     text-align: center;
 }
 
-.profile-image{
+.profile-image {
     max-height: 300px;
 }
 
@@ -110,7 +100,6 @@ header {
 
 .nav-link {
     transition: transform 0.1s ease;
-    /* Smooth appearance effect */
 }
 
 .nav-link:hover {
