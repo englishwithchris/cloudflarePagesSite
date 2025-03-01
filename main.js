@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let positionX = -100; //start the image well to the right
   let positionY = 50; //Center horizontally
   let speed = 0.05;
-  let toggler = true;   //used to control the direction of scroll of the background image
+  let toggler = true; //used to control the direction of scroll of the background image
 
   function animateBackground() {
-    let scrollDirection;    //a new background X postion based on the direction of movement and the speed
+    let scrollDirection; //a new background X postion based on the direction of movement and the speed
 
     if (toggler) {
       scrollDirection = positionX += speed;
