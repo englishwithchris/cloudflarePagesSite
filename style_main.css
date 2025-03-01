@@ -6,6 +6,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 header {
@@ -95,7 +96,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #FF44CC;
+    background-color: #006666;
 }
 
 .nav-link {
