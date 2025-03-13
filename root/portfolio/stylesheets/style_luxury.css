@@ -1,0 +1,94 @@
+        body {
+            font-family: roboto, sans-serif;
+            background-color: #e8f0ff;
+        }
+
+        .navbar {
+            position: absolute;
+            width: 100%;
+            background: transparent !important;
+            z-index: 1000;
+        }
+
+        .navbar .nav-link,
+        .navbar-brand {
+            color: white !important;
+        }
+
+        .nav-link {
+            text-shadow: 1px 1px 3px black;
+        }
+
+        .navbar-toggler-icon {
+            filter: invert(1);
+        }
+
+        .landing {
+            height: 80vh;
+            background: url('../images/flowers-1392392_1280.webp') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            padding-left: 5%;
+        }
+
+        #headline {
+            max-width: 70%;
+            color: white;
+        }
+
+
+        .textEnterLeft {
+            position: relative;
+            opacity: 0;
+            transform: translateX(-5%);
+            transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+        }
+
+        .animateEnterLeft {
+            transform: translateX(0) translateY(0);
+            opacity: 1;
+        }
+
+        .textEnterRight {
+            position: relative;
+            opacity: 0;
+            transform: translateX(5%);
+            transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+        }
+
+        .animateEnterRight {
+            transform: translateX(0) translateY(0);
+            opacity: 1;
+        }
+
+
+        .service {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            box-shadow: 1px 1px 3px black;
+        }
+
+        .service h3 {
+            background: rgba(0, 0, 0, 0.5);
+            color: whitesmoke;
+            padding: 5px 10px;
+        }
+
+        .contact {
+            background: #003366;
+            background: linear-gradient(340deg, #000F1F 0%, #06285A 100%);
+            color: whitesmoke;
+            text-shadow: 1px 1px 3px black;
+
+        }
+
+        .formfield {
+            background-color: #e8f0ff;
+        }
+
+        .footer {
+            background-color: #080611;
+            color: whitesmoke;
+        }

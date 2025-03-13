@@ -82,12 +82,27 @@ header {
     text-align: center;
 }
 
+
+.productRow{
+    max-height: 250px;
+    display: flex;
+    overflow: hidden;
+}
+
+.productImage{
+    max-width: 100%; /*Ensure the image doesn't exceed the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover;
+    
+}
+
+
 .profile-image {
     max-height: 300px;
 }
 
 .cta-button {
-    background-color: teal;
+    background-color: RGB(0, 128, 128);
     color: black;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -99,6 +114,7 @@ header {
     background-color: #006666;
 }
 
+.div
 .nav-link {
     transition: transform 0.1s ease;
 }
