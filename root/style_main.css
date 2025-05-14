@@ -18,7 +18,7 @@ header {
 .text-with-image-1 {
     font-size: 3rem;
     font-weight: bold;
-    background: url(./images/sunsetBlur.png) center;
+    background: url(./images/sunsetBlur.webp) center;
     background-size: inherit;
     -webkit-background-clip: text;
     background-clip: text;
@@ -29,7 +29,7 @@ header {
 .text-with-image-2 {
     font-size: 3rem;
     font-weight: bold;
-    background: url(./images/storm.jpg) no-repeat center;
+    background: url(./images/storm.webp) no-repeat center;
 
     background-size: cover;
     -webkit-background-clip: text;
@@ -41,7 +41,7 @@ header {
 .text-with-image-3 {
     font-size: 3rem;
     font-weight: bold;
-    background: url(./images/storm.jpg) no-repeat center;
+    background: url(./images/storm.webp) no-repeat center;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
@@ -82,19 +82,14 @@ header {
     text-align: center;
 }
 
-
-.productRow{
-    max-height: 250px;
-    display: flex;
-    overflow: hidden;
+.productRowDark{
+    background-color: lightgray;
 }
 
 .productImage{
-    max-width: 100%; /*Ensure the image doesn't exceed the width of its container */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: cover;
-    
+    max-height: 400px;
 }
+
 
 
 .profile-image {
@@ -155,4 +150,8 @@ header {
 
 .accordion-button {
     background-color: teal;
+}
+
+footer{
+    padding-top: 5px;
 }
