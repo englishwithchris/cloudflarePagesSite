@@ -1,0 +1,83 @@
+    :root{
+      --highlight-color:  rgba(225, 173, 1, 1) ;
+    }
+    
+    body{
+      background-color: black;
+      font-family: Roboto, sans-serif;
+      color: whitesmoke;
+    }
+
+    a {
+      color: var(--highlight-color);
+    }
+  
+    .hero {
+      height: 100vh;
+      background: url("./images/mothman.webp") center center/cover no-repeat;
+      color: white;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+
+    .hero a{
+      background-color: transparent;
+      border-color: var(--highlight-color);
+      color: whitesmoke;
+     }
+
+     .buttonHover:hover{
+        border-color: var(--highlight-color);
+        color: black;
+        background-color: var(--highlight-color);
+        text-shadow: none;
+     }
+
+
+    .heroTitle{
+      font-family: "Metal Mania";
+      font-size: 6rem;
+
+    }
+
+    .heroSubhead{
+      font-family: "Metal Mania";
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.75);
+    }
+    .heroContent {
+      position: relative;
+      z-index: 1;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    .infoTitle{
+      font-family: "Metal Mania";
+    }
+
+    .alternate{
+      background-color: #0e1717;
+    }
+
+    .about{
+            max-width: 1300px;
+    }
+
+    footer {
+      background-color: #000000;
+      padding: 20px 0;
+      text-align: center;
+    }
+  
